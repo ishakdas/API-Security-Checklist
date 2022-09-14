@@ -43,7 +43,7 @@ API'nizi tasarlarken, test ederken ve yayınlarken en önemli güvenlik önlemle
 
 ## İşleme
 - [ ] Kimlik doğrulama işleminin atlatılmasını önlemek için, tüm iştem uç noktalarının kimlik doğrulama arkasında korunup korunmadığını kontrol edin.
-- [ ] Kullanıcı için kendi kaynak ID'si kullanılmasından kaçınılmalıdır. `/me/orders` yerine `/user/654321/orders` kullanın.
+- [ ] Kullanıcı için kendi kaynak ID'si kullanılmasından kaçınılmalıdır. `/user/654321/orders` yerine `/me/orders`   kullanın.
 - [ ] Otomotik artan ID'ler kullanmayın. Yerine `UUID` kullanın.
 - [ ] Eğer XML dosyarını (parse) ayrıştırıyorsanız, varlık ayrıştırmasını önlemek için etkin olmadığını doğrulayın `XXE` (XML external entity attack).
 - [ ] Eğer XML dosyarını (parse) ayrıştırıyorsanız, `Billion Laughs/XML bomb` varlık genişletme saldırısı yoluyla,varlığın genişlemesinin önlemek için etkinleştirilmediğinden emin olun.
